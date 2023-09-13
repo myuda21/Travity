@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Travity</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <nav class="nav37">
+    <div class="logo-nav">
+        <img src="asset/logo.png" alt="">
+    </div>
+    <div class="nav-mid">
+        <div class="imp-links">
+            <a href="index_homepage-new.html"><div class="table-daftar" style="background: #DBEAFE;
+                color: #007AFF;">&emsp;
+                <img src="asset/beranda.png" class="icon-beranda-burem" />&emsp;&emsp;&emsp;Beranda
+                <!-- <img src="asset/beranda_opp.png" class="icon-beranda">  -->
+            </div></a>
+            <a href="index-akun-active.html"><div class="table-daftar"  >&emsp;
+                <img src="asset/accun.png" class="icon-beranda-burem" />&emsp;&emsp;&emsp;Akun
+                <img src="asset/accun_opp.png" class="icon-beranda">
+            </div></a>
+            <a href="index-setting.html"><div class="table-daftar">&emsp;
+                <img src="asset/pengaturan.png" class="icon-beranda-burem" />&emsp;&emsp;Pengaturan
+                <img src="asset/pengaturan_opp.png" class="icon-beranda">
+            </div></a>
+        </div>
+    </div>
+    <div class="nav-right">
+        <div class="search-box">
+            <input type="text" placeholder="Cari tempat favoritmu . . .">
+            <img src="asset/Icon Penelusuran.png">
+        </div>
+    </div>
+</nav>
+
+<section class="banner-section">		
+    <header class="banner-site">            
+        <img src="asset/Banner.png">
+    </header>
+</section>
+
+<section class="profile-section">		
+    <header class="profile-site">            
+        <img src="asset/Ikonik.png">
+    </header>
+    <div class="profile-name-info">
+        <h1>
+            <span class="pro-txt" id="profile_name">Daerah Istimewa Yogyakarta</span>
+            <span id="nik-name"></span>
+        </h1>
+    </div>
+</section>
+
+  
+  
+  <div style="display: flex; margin-top: 30px;"><!--start div style flex -->
+      <section class="daftar-disimpan">
+        <div class="table1">
+          <div class="table-daftar-simpan">&emsp;<img src="/asset/Icon Todo-List.png" class="icon-todo-list" />&emsp; Daftar Disimpan</div><br>
+          <span class="kosong" style="margin-top: 15px;" id="kosong_1"><img src="/asset/kosong.png" alt="">&emsp;Kosong</span><br>
+          <div id="simpan_1" style="margin-top: 10px;display: none;">
+            <span class="font-design1"><img src="/asset/iconlokasi.png" >&emsp;Tugu Jogja</span><br>
+          </div>
+          <div id="simpan_2" style="margin-top: 10px;display: none;">
+            <span class="font-design1"><img src="/asset/iconlokasi.png" >&emsp;Malioboro</span><br>
+          </div>
+          <div id="simpan_3" style="margin-top: 10px;display: none;">
+            <span class="font-design1"><img src="/asset/iconlokasi.png" >&emsp;Taman Reptil Gembira Loka Zoo</span><br>
+          </div>
+          <div id="simpan_4" style="margin-top: 10px;display: none;">
+            <span class="font-design1"><img src="/asset/iconlokasi.png" >&emsp;Kampung Wisata Taman Sari</span><br>
+          </div>
+          <div id="simpan_5" style="margin-top: 10px;display: none;">
+            <span class="font-design1"><img src="/asset/iconlokasi.png" >&emsp;Alun- Alun Kidul</span><br>
+          </div>
+          <div id="simpan_6" style="margin-top: 10px;display: none;">
+            <span class="font-design1"><img src="/asset/iconlokasi.png" >&emsp;Keraton Yogyakarta</span><br>
+          </div>
+        </div>
+        <div class="table2"><!--awal div table2 -->
+            <div class="table-daftar-simpan">&emsp;<img src="/asset/Icon Filter.png" class="icon-todo-list">&emsp; Saring Menu </div>
+            <div class="isi-saring-menu"><!--start isi saring menu hotel dll -->
+              <div style="padding-top: 10px;">
+              <span id="hotel-min"><img src="/asset/Icon Hotel.png" alt="">&emsp;Hotel <button type="submit" onclick="hotelmin()"><img src="asset/minus.png" alt=""></button></span>
+              </div>
+              <div style="padding-top: 10px;">
+              <span id="motel-min"><img src="/asset/Icon Motel.png" alt="">&emsp;Motel <button type="submit" onclick="motelmin()"><img src="asset/minus.png" alt=""></button></span>
+              </div>
+              <div style="padding-top: 10px;">
+              <span id="moneychanger-min"><img src="/asset/Icon Money Changer.png" alt="">&emsp;Money Changer <button type="submit" onclick="moneychangermin()"><img src="asset/minus.png" alt=""></button></span>
+              </div>
+              <div style="padding-top: 10px;">
+              <span id="mall-min"><img src="/asset/Icon Mall.png" alt="">&emsp;Pusat Perbelanjaan <button type="submit" onclick="mallmin()"><img src="asset/minus.png" alt=""></button></span>
+              </div>
+              <div style="padding-top: 10px;">
+              <span id="ticket-min"><img src="/asset/Icon Ticket.png" alt="">&emsp;Tempat dengan tiket masuk <button type="submit" onclick="ticketmin()"><img src="asset/minus.png" alt=""></button></span>
+              </div>
+              <div style="padding-top: 10px;">
+              <span id="kemah-min"><img src="/asset/Icon Kemah.png" alt="">&emsp;Berkemah <button type="submit" onclick="kemahmin()"><img src="asset/minus.png" alt=""></button></span>
+              </div>
+              <div style="padding-top: 10px;">
+              <span id="pantai-min"><img src="/asset/Icon Pantai.png" alt="">&emsp;Pantai <button type="submit" onclick="pantaimin()"><img src="asset/minus.png" alt=""></button></span>
+              </div>
+              <div style="padding-top: 10px;">
+              <span id="jalansantai-min"><img src="/asset/Icon Jalan santai.png" alt="">&emsp;Jalan Santai <button type="submit" onclick="jalansantaimin()"><img src="asset/minus.png" alt=""></button></span>
+              </div>
+              <div style="padding-top: 10px;">
+              <span id="forest-min"><img src="/asset/Icon forest.png" alt="">&emsp; Pemandangan Alam <button type="submit" onclick="forestmin()"><img src="asset/minus.png" alt=""></button></span>
+              </div>
+              <div style="padding-top: 10px;">
+              <span id="trend-min"><img src="/asset/Icon Trend.png" alt="">&emsp; Rekomendasi <button type="submit" onclick="trendmin()"><img src="asset/minus.png" alt=""></button></span>
+              </div>
+              <div style="padding-top: 10px;">
+                <hr>
+              <div class="plus">
+
+              <span id="hotel-plus" style="display: none; padding-top: 10px;"><img src="/asset/Icon Hotel.png" alt="">&emsp;Hotel <button type="submit" onclick="hotelmin()"><img src="asset/plus.png" alt=""></button></span>
+
+
+              <span id="motel-plus" style="display: none; padding-top: 10px;"><img src="/asset/Icon Motel.png" alt="">&emsp;Motel <button type="submit" onclick="motelmin()"><img src="asset/plus.png" alt=""></button></span>
+
+
+              <span id="moneychanger-plus" style="display: none; padding-top: 10px;"><img src="/asset/Icon Money Changer.png" alt="">&emsp;Money Changer <button type="submit" onclick="moneychangermin()"><img src="asset/plus.png" alt=""></button></span>
+
+
+              <span id="mall-plus" style="display: none; padding-top: 10px;"><img src="/asset/Icon Mall.png" alt="">&emsp;Pusat Perbelanjaan <button type="submit" onclick="mallmin()"><img src="asset/plus.png" alt=""></button></span>
+
+
+              <span id="ticket-plus" style="display: none; padding-top: 10px;"><img src="/asset/Icon Ticket.png" alt="">&emsp;Tempat dengan tiket masuk <button type="submit" onclick="ticketmin()"><img src="asset/plus.png" alt=""></button></span>
+
+
+              <span id="kemah-plus" style="display: none; padding-top: 10px;"><img src="/asset/Icon Kemah.png" alt="">&emsp;Berkemah <button type="submit" onclick="kemahmin()"><img src="asset/plus.png" alt=""></button></span>
+
+
+              <span id="pantai-plus" style="display: none; padding-top: 10px;"><img src="/asset/Icon Pantai.png" alt="">&emsp;Pantai <button type="submit" onclick="pantaimin()"><img src="asset/plus.png" alt=""></button></span>
+
+
+              <span id="jalansantai-plus" style="display: none; padding-top: 10px;"><img src="/asset/Icon Jalan santai.png" alt="">&emsp;Jalan Santai <button type="submit" onclick="jalansantaimin()"><img src="asset/plus.png" alt=""></button></span>
+
+
+              <span id="forest-plus" style="display: none; padding-top: 10px;"><img src="/asset/Icon forest.png" alt="">&emsp; Pemandangan Alam <button type="submit" onclick="forestmin()"><img src="asset/plus.png" alt=""></button></span>
+
+
+              <span id="trend-plus" style="display: none; padding-top: 10px;"><img src="/asset/Icon Trend.png" alt="">&emsp; Rekomendasi <button type="submit" onclick="trendmin()"><img src="asset/plus.png" alt=""></button></span>
+            </div>
+          </div>
+          </div><!--akhir isi saring menu -->
+        </div><!--akhir div table2 -->
+      </section>
+      <section class="container">
+      
+        <div class="card">
+          <div class="card-image car1"></div>&emsp;
+          <a href="index-destinasi.html"><h4>&emsp;Tugu Jogja</h4></a><br>
+          <div class="lokasi-ticket"><img src="/asset/Icon lokasi.png" alt="">&emsp;Jetis, Yogyakarta</div>
+          <div class="rating"><!--start div bikin rating review -->
+            <input type="radio" id="star1" name="rating" value="1">
+            <label for="star1">&#9733;</label>
+            <input type="radio" id="star2" name="rating" value="2">
+            <label for="star2">&#9733;</label>
+            <input type="radio" id="star3" name="rating" value="3">
+            <label for="star3">&#9733;</label>
+            <input type="radio" id="star4" name="rating" value="4">
+            <label for="star4">&#9733;</label>
+            <input type="radio" id="star5" name="rating" value="5">
+            <label for="star5">&#9733;</label>
+          </div><!--akhir div bikin rating review -->
+          <div class="harga-ticket"><img src="/asset/icon tiket.png" alt="">&emsp;IDR 100.000 / orang</div><br>
+          <div class="border-aktifitas">
+            <div class="custom-select" id="btn_aktifitas1" onclick="myFunction()">
+              <span style="margin-top: -10px;">&emsp;Aktifitas<img
+                  src="/asset/list.png" alt="" style="transform: translateY(8px); margin-left: 150px;"></span>
+            </div>
+            <div id="konten-1" style="display: none;">
+              <span style="font-size: 13px;"><img src="/asset/Icon Untung.png" alt="">Sewa sepeda berkeliling Tugu Jogja<br>
+                <hr>
+                <span><img src="/asset/Icon Untung.png" alt="">Makan di restoran menu khas Jogja</span><br>
+                <hr>
+                <span><img src="/asset/Icon Untung.png" alt="">Befoto di depan Tugu Jogja</span><br>
+                <hr>
+                <span><img src="/asset/Icon Untung.png" alt="">Berbelanja oleh-oleh di sekitar Tugu Jogja</span>
+                <hr>
+                <div class="font-tugu-jogja"><a href="detail.html"> 7 Aktivitas</a></div>
+            </div>
+          </div>
+          <button class="simpan-daftar" id="btn_simpandaftar1" onclick="pindahsimpandaftar1()">Simpan Daftar</button>&ensp;
+        </div>
+        <br>
+        <div class="card">
+          <div class="card-image car2"></div><br>
+          <h4>&emsp;Malioboro</h4><br>
+          <div class="lokasi-ticket"><img src="/asset/Icon lokasi.png" alt="">&emsp;Gedongtengen, Yogyakarta</div>
+              <div class="rating"><!--start div bikin rating review -->
+                <input type="radio" id="star6" name="rating" value="1">
+                <label for="star6">&#9733;</label>
+                <input type="radio" id="star7" name="rating" value="2">
+                <label for="star7">&#9733;</label>
+                <input type="radio" id="star8" name="rating" value="3">
+                <label for="star8">&#9733;</label>
+                <input type="radio" id="star9" name="rating" value="4">
+                <label for="star9">&#9733;</label>
+                <input type="radio" id="star10" name="rating" value="5">
+                <label for="star10">&#9733;</label>
+              </div><!--akhir div rating review -->
+              <div class="harga-ticket"><img src="/asset/icon tiket.png" alt="">&emsp;IDR 0.000 / orang</div><br>
+              <div class="border-aktifitas">
+                <div class="custom-select" id="btn_aktifitas1" onclick="myFunction2()">
+                  <span style="margin-top: -10px;">&emsp;Aktifitas<img
+                      src="/asset/list.png" alt="" style="transform: translateY(8px); margin-left: 150px;"></span>
+                </div>
+            <div id="konten-2" style="padding: 20px;display: none;">
+            </div>
+          </div>
+          <button class="simpan-daftar" id="btn_simpandaftar2" onclick="pindahsimpandaftar2()">Simpan Daftar</button>&ensp;
+        </div>
+        <div class="card">
+          <div class="card-image car3"></div><br>
+          <h4>&emsp;Taman Reptil Gembira Loka Zoo</h4><br>
+          <div class="lokasi-ticket"><img src="/asset/Icon lokasi.png" alt="">&emsp;Kota Gede, Yogyakarta</div>
+              <div class="rating"><!--start div bikin rating review -->
+                <input type="radio" id="star11" name="rating" value="1">
+                <label for="star11">&#9733;</label>
+                <input type="radio" id="star12" name="rating" value="2">
+                <label for="star12">&#9733;</label>
+                <input type="radio" id="star13" name="rating" value="3">
+                <label for="star13">&#9733;</label>
+                <input type="radio" id="star14" name="rating" value="4">
+                <label for="star14">&#9733;</label>
+                <input type="radio" id="star15" name="rating" value="5">
+                <label for="star15">&#9733;</label>
+              </div><!--akhir div bikin rating review -->
+              <div class="harga-ticket"><img src="/asset/icon tiket.png" alt="">&emsp;IDR 120.000 / orang</div><br>
+          <div class="border-aktifitas">
+            <div class="custom-select" id="btn_aktifitas3" onclick="myFunction3()">
+              <span style="margin-top: -10px;">&emsp; Aktifitas<img
+                  src="/asset/list.png" alt="" style="transform: translateY(8px); margin-left: 140px;"></span>
+            </div>
+            <div id="konten-3" style="padding: 20px;display: none;">
+            </div>
+          </div>
+          <button class="simpan-daftar" id="btn_simpandaftar3" onclick="pindahsimpandaftar3()">Simpan Daftar</button>&ensp;
+        </div>
+        <div class="card">
+          <div class="card-image car4"></div><br>
+          <h4>&emsp;Kampung Wisata Taman Sari</h4><br>
+          <div class="lokasi-ticket"><img src="/asset/Icon lokasi.png" alt="">&emsp;Jl. Malioboro, Yogyakarta</div>
+          <div class="rating">
+            <input type="radio" id="star16" name="rating" value="1">
+            <label for="star16">&#9733;</label>
+            <input type="radio" id="star17" name="rating" value="2">
+            <label for="star17">&#9733;</label>
+            <input type="radio" id="star18" name="rating" value="3">
+            <label for="star18">&#9733;</label>
+            <input type="radio" id="star19" name="rating" value="4">
+            <label for="star19">&#9733;</label>
+            <input type="radio" id="star20" name="rating" value="5">
+            <label for="star20">&#9733;</label>
+          </div>
+          <div class="harga-ticket"><img src="/asset/icon tiket.png" alt="">&emsp;IDR 30.000 / orang</div><br>
+          <div class="border-aktifitas">
+            <div class="custom-select" id="btn_aktifitas1" onclick="myFunction4()">
+              <span style="margin-top: -10px;">&emsp;Aktifitas<img
+                  src="/asset/list.png" alt="" style="transform: translateY(8px); margin-left: 150px;"></span>
+            </div>
+            <div id="konten-4" style="padding: 20px;display: none;">
+                <div class="font-tugu-jogja">
+                  <a href="tugujogja.html"> 7 Aktivitas</a>
+                </div>
+            </div>
+          </div>
+          <button class="simpan-daftar" id="btn_simpandaftar4" onclick="pindahsimpandaftar4()">Simpan Daftar</button>&ensp;
+        </div>
+        <div class="card">
+          <div class="card-image car5"></div><br>
+          <h4>&emsp;Alun - Alun Kidul</h4><br>
+          <div class="lokasi-ticket"><img src="/asset/Icon lokasi.png" alt="">&emsp;Kota
+            Keraton, Yogyakarta</div>
+              <div class="rating"><!--start div bikin rating review -->
+                <input type="radio" id="star21" name="rating" value="1">
+                <label for="star21">&#9733;</label>
+                <input type="radio" id="star22" name="rating" value="2">
+                <label for="star22">&#9733;</label>
+                <input type="radio" id="star23" name="rating" value="3">
+                <label for="star23">&#9733;</label>
+                <input type="radio" id="star24" name="rating" value="4">
+                <label for="star24">&#9733;</label>
+                <input type="radio" id="star25" name="rating" value="5">
+                <label for="star25">&#9733;</label>
+              </div><!--akhir div bikin rating review -->
+              <div class="harga-ticket"><img src="/asset/icon tiket.png" alt="">&emsp;IDR 0.000 / orang</div><br>
+          <div class="border-aktifitas">
+            <div class="custom-select" id="btn_aktifitas1" onclick="myFunction5()">
+              <span style="margin-top: -10px;">&emsp; Aktifitas<img
+                  src="/asset/list.png" alt="" style="transform: translateY(8px);margin-left: 140px;"></span>
+            </div>
+            <div id="konten-5" style="padding: 20px;display: none;">
+            </div>
+          </div>
+          <button class="simpan-daftar" id="btn_simpandaftar5" onclick="pindahsimpandaftar5()">Simpan Daftar</button>&ensp;
+        </div>
+        <div class="card">
+          <div class="card-image car6"></div><br>
+          <h4>&emsp;Keraton Yogyakarta</h4><br>
+          <div class="lokasi-ticket"><img src="/asset/Icon lokasi.png" alt="">&emsp;Keraton, Yogyakarta</div>
+              <div class="rating"><!--start div bikin rating review -->
+                <input type="radio" id="star26" name="rating" value="1">
+                <label for="star26">&#9733;</label>
+                <input type="radio" id="star27" name="rating" value="2">
+                <label for="star27">&#9733;</label>
+                <input type="radio" id="star28" name="rating" value="3">
+                <label for="star28">&#9733;</label>
+                <input type="radio" id="star29" name="rating" value="4">
+                <label for="star29">&#9733;</label>
+                <input type="radio" id="star30" name="rating" value="5">
+                <label for="star30">&#9733;</label>
+              </div><!--akhir div bikin rating review -->
+              <div class="harga-ticket"><img src="/asset/icon tiket.png" alt="">&emsp;IDR 15.000 / orang</div><br>
+          <div class="border-aktifitas">
+            <div class="custom-select" id="btn_aktifitas3" onclick="myFunction6()">
+              <span style="margin-top: -10px;">&emsp; Aktifitas<img
+                  src="/asset/list.png" alt="" style="transform: translateY(8px);margin-left: 140px;"></span>
+            </div>
+            <div id="konten-6" style="padding: 20px;display: none;">
+            </div>
+          </div>
+          <button class="simpan-daftar" id="btn_simpandaftar6" onclick="pindahsimpandaftar6()">Simpan Daftar</button>&ensp;
+        </div>
+      </section>
+      
+  </div><!--akhir div style flex -->
+  <script src="scripthome.js"></script>
+</body>
+
+</html>

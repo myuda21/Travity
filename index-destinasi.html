@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account</title> 
+    <link href="style_destinasi.css" rel="stylesheet" type="text/css" />
+
+</head>
+<body>
+    <nav>
+        <div class="nav-left">
+            <div class="imp-links">
+                <div class="logo">
+                    <img src="asset/Travity.png" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="nav-mid">
+            <div class="imp-links">
+                <a href="index_homepage-new.html"><div class="table-daftar">&emsp;
+                    <img src="asset/beranda.png" class="icon-beranda-burem" />&emsp;&emsp;&emsp;Beranda
+                    <img src="asset/beranda_opp.png" class="icon-beranda"> 
+                </div></a>
+                <a href="index-akun-active.html"><div class="table-daftar">&emsp;
+                    <img src="asset/accun.png" class="icon-beranda-burem" />&emsp;&emsp;&emsp;Akun
+                    <img src="asset/accun_opp.png" class="icon-beranda">
+                </div></a>
+                <a href="index-setting.html"><div class="table-daftar">&emsp;
+                    <img src="asset/pengaturan.png" class="icon-beranda-burem" />&emsp;&emsp;Pengaturan
+                    <img src="asset/pengaturan_opp.png" class="icon-beranda">
+                </div></a>
+            </div>
+        </div>
+
+
+        <div class="nav-right">
+            <div class="search-box">
+                <input type="text" placeholder="Cari tempat favoritmu . . .">
+                <img src="asset/Icon Penelusuran.png">
+            </div>
+        </div>
+    </nav>
+    <!-- <div> -->
+        <div class="detail-banner"> <!--start div banner -->
+            <div class="item1">
+                <a href="#">
+                    <img src="asset/detail-1.jpg" >
+                </a>
+            </div>
+            <div class="item2">
+                <a href="#">
+                    <img src="asset/detail-2.jpg" >
+                </a>
+            </div>
+            <div class="item3">
+                <a href="#">
+                    <img src="asset/detail+7.jpg" >
+                </a>
+            </div>
+        </div><!--akhir dic banner -->
+        <!-- </div> -->
+
+    
+
+    <!-- op pengenalan daerah -->
+    <div class="pengenalan-daerah">
+        <div class="nama-lokasi">
+            <h1 class="Title-Lokasi">Tugu Jogya</h1>
+        </div>
+        <div class="penjelasan-lokasi">
+            <div class="tempat-jelas-lokasi">
+                <div class="frame4-1 frame4-3">
+                    <img class="iconlokasibiru" src="asset/Ikon Lokasi.svg"  alt="iconlokasibiru">
+                    <div class="tempat-daerah-asal">
+                        Jetis, Yogyakarta
+                    </div>
+                </div>
+                <div class="bintang-review p-2">
+                    <div class="bintang">
+                        <div class="frame2-1 frame2-4">
+                            <img class="ikonbintang" src="asset/Icon Bintang.svg" alt="ikonbintang5">
+                        </div>
+                        <div class="frame2-1 frame2-4">
+                            <img class="ikonbintang" src="asset/Icon Bintang.svg" alt="ikonbintang5">
+                        </div>
+                        <div class="frame2-1 frame2-4">
+                            <img class="ikonbintang" src="asset/Icon Bintang.svg" alt="ikonbintang5">
+                        </div>
+                        <div class="frame2-1 frame2-4">
+                            <img class="ikonbintang" src="asset/Icon Bintang.svg" alt="ikonbintang5">
+                        </div>
+                        <div class="frame2-1 frame2-4">
+                            <img class="ikonbintang" src="asset/Icon Bintang Biru.svg" alt="ikonbintang5">
+                        </div><br>
+                        <div class="rate">
+                            <div class="angka-rate">4/5</div>
+                            <div class="angka-review">(1.461 Review)</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="ol ol-1">
+            <img class="svg " src="asset/svg.svg" alt="svg">
+            <div class="ol-item ol-1">
+                <img class="svg-1" src="asset/svg-1.svg" alt="svg">
+                <div class="inboxback">
+                    Daerah Istimewa Yogyakarta
+                </div>
+            </div>
+            <div class="ol-item ol-1">
+                <img class="svg-1" src="asset/svg-1.svg" alt="svg">
+                <div class="inboxback sg15">
+                    Tugu Jogya
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- pengenalan daerah end -->
+
+    
+
+    <section class="container">
+    <!---------------------left-sidebar------------------------->
+        <div class="left-sidebar">
+            <div class="daftar-disimpan">
+                <div class="table1 LEFT">
+                    <div class="daftar-aktifitas-tersedia-luaran">
+                        <div class="daftar-aktifitas-tersedia">
+                            <img class="ikonuntung" src="asset/Icon Untung.svg" class="ikonuntung1" />
+                            <div class="pencarian-daftar-aktifitas-tersedia">
+                                <div class="tulisan-daftar-aktifitas-tersedia">Daftar aktifitas tersedia</div>
+                                <img class="iconpenelusuran" src="asset/searchicon.svg" class="icon-todo-list">
+                            </div>
+                        </div>
+                    </div>
+            
+                    <div class="log-activity" onclick="onShow(divA)">
+                        <div class="inputan">
+                            <input type="checkbox" name="tugu-jogja-act1" id="tugu-jogja-act1">
+                            <label for="tugu-jogja-act1"></label>
+                        </div>
+                        <div class="tulisan-activity">
+                            <p class="kalimat-act">Sewa sepeda berkeliling <br>Tugu Jogja</p>
+                            <div class="kanan-tlsan">
+                                <div class="harganya">IDR 100.000</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="log-activity" onclick="onShow(divB)">
+                        <div class="inputan">
+                            <input type="checkbox" name="tugu-jogja-act2" id="tugu-jogja-act2">
+                            <label for="tugu-jogja-act2"></label>
+                        </div>
+                        <div class="tulisan-activity">
+                            <p class="kalimat-act">Makan di restoran menu khas <br>Jogja</p>
+                            <div class="kanan kanan-tlsan">
+                                <div class="menu">Menu</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="log-activity" onclick="onShow(divC)">
+                        <div class="inputan">
+                            <input type="checkbox" name="tugu-jogja-act3" id="tugu-jogja-act3">
+                            <label for="tugu-jogja-act3"></label>
+                        </div>
+                        <div class="tulisan-activity">
+                            <p class="kalimat-act">Berbelanja oleh-oleh di sekitar Tugu <br>Jogja</p>
+                        </div>
+                    </div>
+                    
+                    <div class="log-activity" onclick="onShow(divA)">
+                        <div class="inputan">
+                            <input type="checkbox" name="tugu-jogja-act4" id="tugu-jogja-act4">
+                            <label for="tugu-jogja-act4"></label>
+                        </div>
+                        <div class="tulisan-activity">
+                            <p class="kalimat-act">Foto seru bareng cosplayer Tugu Jogja</p>
+                        </div>
+                    </div>
+
+                    <div class="log-activity">
+                        <div class="inputan">
+                            <input type="checkbox" name="tugu-jogja-act5" id="tugu-jogja-act5">
+                            <label for="tugu-jogja-act5"></label>
+                        </div>
+                        <div class="tulisan-activity">
+                            <p class="kalimat-act">Foto keren bareng temen atau pacar di <br>depan Tugu Jogja</p>
+                        </div>
+                    </div>
+
+                    <div class="log-activity">
+                        <div class="inputan">
+                            <input type="checkbox" name="tugu-jogja-act6" id="tugu-jogja-act6">
+                            <label for="tugu-jogja-act6"></label>
+                        </div>
+                        <div class="tulisan-activity">
+                            <p class="kalimat-act">Makan angkringan emperan Tugu Jogja</p>
+                        </div>
+                    </div>
+                    
+                    <div class="log-activity">
+                        <div class="inputan" >
+                            <input type="checkbox" name="tugu-jogja-act7" id="tugu-jogja-act7">
+                            <label for="tugu-jogja-act7"></label>
+                        </div>
+                        <div class="tulisan-activity">
+                            <p class="kalimat-act">Ngopi disekitar emperan Tugu Jogja</p>
+                        </div>
+                    </div>
+
+                    <div class="log-activity">
+                        <div class="inputan">
+                            <input type="checkbox" name="tugu-jogja-act8" id="tugu-jogja-act8">
+                            <label for="tugu-jogja-act8"></label>
+                        </div>
+                        <div class="tulisan-activity">
+                            <p class="kalimat-act">Main gitar di emperan Tugu Jogja</p>
+                        </div>
+                    </div>
+
+                    <div class="log-activity">
+                        <div class="inputan">
+                            <input type="checkbox" name="tugu-jogja-act9" id="tugu-jogja-act9">
+                            <label for="tugu-jogja-act9"></label>
+                        </div>
+                        <div class="tulisan-activity">
+                            <p class="kalimat-act">Jalan santai di emperan Tugu Jogja</p>
+                        </div>
+                    </div>
+
+                    <div class="log-activity">
+                        <div class="inputan">
+                            <input type="checkbox" name="tugu-jogja-act10" id="tugu-jogja-act10">
+                            <label for="tugu-jogja-act10"></label>
+                        </div>
+                        <div class="tulisan-activity">
+                            <p class="kalimat-act">Naik becak keliling Tugu Jogja</p>
+                        </div>
+                    </div>
+
+                    <div class="aktifitas-terpilih">
+                        <div class="dipilih">
+                            <span>0 aktifitas dipilih</span>
+                        </div>
+                    </div>
+                    <div class="aktifitas-terpilih">
+                        <div class="butonsimpan">
+                            <div class="dipilih2">Simpan daftar</div>
+                        </div>
+                    </div>
+            
+                </div>
+                
+            </div>
+        </div>
+        
+
+        <!-- opsi 2 berisi House Raminten -->
+        <div class="act-tugu" id="divB">&emsp;
+            <div class="detail-banner"> <!--start div banner -->
+                <div class="item1">
+                    <a href="#">
+                        <img class="imagegede" src="asset/raminten1.png">
+                    </a>
+                </div>
+                <div class="item2">
+                    <a href="#">
+                        <img src="asset/raminten2.png" >
+                    </a>
+                </div>
+                <div class="item3">
+                    <a href="#">
+                        <img src="asset/raminten2.png" >
+                    </a>
+                </div>    
+            </div>
+        
+            <div style="display: flex;">
+
+            <!-- Bagian kiri konten menu -->
+            <div class="HOR-detail" >
+                <div class="HOR-Title">
+                    <div class="NameHOR">House Of Raminten</div>
+                </div>
+                <div class="HOR-detail">
+                    <div class="barRating">
+                        <div class="barnya">
+                            <div class="bar">
+                                <div class="numberbar">5</div>
+                                <div class="linepanjang">
+                                    <div class="linebar5 lineb"></div>
+                                </div>
+                                
+                            </div>
+                            <div class="bar">
+                                <div class="numberbar">4</div>
+                                <div class="linepanjang">
+                                    <div class="linebar4 lineb"></div>
+                                </div>
+                            </div>
+                            <div class="bar">
+                                <div class="numberbar">3</div>
+                                <div class="linepanjang">
+                                    <div class="linebar3 lineb"></div>
+                                </div>
+                            </div>
+                            <div class="bar">
+                                <div class="numberbar">2</div>
+                                <div class="linepanjang">
+                                    <div class="linebar2 lineb"></div>
+                                </div>
+                            </div>
+                            <div class="bar">
+                                <div class="numberbar">1</div>
+                                <div class="linepanjang">
+                                    <div class="linebar1 lineb"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bintang-review p-2">
+                            <div class="bintang">
+                                <div class="frame2-1 frame2-4">
+                                    <img class="ikonbintang" src="asset/Icon Bintang.svg" alt="ikonbintang5">
+                                </div>
+                                <div class="frame2-1 frame2-4">
+                                    <img class="ikonbintang" src="asset/Icon Bintang.svg" alt="ikonbintang5">
+                                </div>
+                                <div class="frame2-1 frame2-4">
+                                    <img class="ikonbintang" src="asset/Icon Bintang.svg" alt="ikonbintang5">
+                                </div>
+                                <div class="frame2-1 frame2-4">
+                                    <img class="ikonbintang" src="asset/Icon Bintang.svg" alt="ikonbintang5">
+                                </div>
+                                <div class="frame2-1 frame2-4">
+                                    <img class="ikonbintang" src="asset/Icon Bintang Biru.svg" alt="ikonbintang5">
+                                </div>
+                                <div class="rate">
+                                    <div class="angka-rate">4/5</div>
+                                    <div class="angka-review">(450 Review)</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="frame4-1 frame4-3">
+                        <img class="iconlokasibiru" src="asset/Ikon Lokasi.svg"  alt="iconlokasibiru">
+                        <div class="tempat-daerah-asal">
+                            Jl. Faridan, Jetis, Yogyakarta
+                        </div>
+                    </div>
+                    <div class="frame4-1 frame4-3">
+                        <img class="iconlokasibiru" src="asset/Icon Jam Buka.svg"  alt="iconlokasibiru">
+                        <div class="frame2-2 frame2-4" style="color: #166534;">
+                            Buka 
+                        </div>
+                        <div class="frame3-2 frame3-4" style="font-size: 13px; font-weight: 600; color: #6C757D;">
+                            Pukul 09.00 - 00.00 WIB
+                        </div>
+                    </div>
+                    <div class="frame4-1 frame4-3">
+                        <img class="iconlokasibiru" src="asset/Icon Internet.svg"  alt="iconlokasibiru">
+                        <div class="tempat-daerah-asal" style="color: #1E40AF; font-size: 13px; font-weight: 600;">
+                            goo.kl/maps\MydLWlllllljNEpgLhZvRg6
+                        </div>
+                    </div>
+                </div>
+            </div><!--akhir row skoring review-->
+            
+            
+            <!-- Akhir bagian kiri konten menu -->
+
+                <div class="kanankanankanan">
+                    <div class="SingkatHOR">
+                        <div class="tentang">Tentang</div>
+                        <p class="singkattulisan">
+                            Raminten adalah sebuah warung makan yang terletak di Yogyakarta, Indonesia. Warung makan ini terkenal karena menyajikan makanan khas Jawa dan suasana tradisional yang kental. <br>
+                            Raminten menyajikan berbagai macam menu makanan tradisional Jawa seperti nasi liwet, soto, gudeg, pecel, dan masih banyak lagi. Selain itu, Raminten juga menyajikan minuman tradisional 
+                            seperti wedang uwuh, wedang bajigur, dan kopi jos.
+                        </p>
+                    </div>
+                
+                    <div class="menuraminten">
+                        <div class="tulisanmen">Menu</div>
+                        <div class="menuresto restomen">
+                            <img class="imgmen" src="asset/mennu.jpg" alt="img100">
+                        </div>
+                    </div>
+
+                    <div class="ulasanulasan">
+                        <div class="ulasanresto">Ulasan</div>
+                        <div class="kolomulasan">
+                            <div class="kolomsatuanulasan">
+                                <img class="bulatorng" src="asset/prsn1.svg" alt="">
+                                <div class="katakolom">
+                                    <p class="isikolom">"Rumah makan dengan basic jawa kuno hingga semua karyawan mengenakan baju adat." </p>
+                                </div>
+                                <img class="pnls" src="asset/Icon Pelayanan.svg" alt="">
+                            </div>
+                            <div class="kolomsatuanulasan">
+                                <img class="bulatorng" src="asset/prsn2.svg" alt="">
+                                <div class="katakolom">
+                                    <p class="isikolom">"Tempat bersih sangat direkomendasikan."  </p>
+                                </div>
+                                <img class="pnls" src="asset/Icon Pelayanan.svg" alt="">
+                            </div>
+                            <div class="kolomsatuanulasan">
+                                <img class="bulatorng" src="asset/prsn3.svg" alt="">
+                                <div class="katakolom">
+                                    <p class="isikolom">"Jooooos pelayananya."  </p>
+                                </div>
+                                <img class="pnls" src="asset/Icon Pelayanan.svg" alt="">
+                            </div>
+                        </div>
+                        <a href=""><div class="span1 span2">
+                            <img class="ulsnn" src="asset/ulsn.svg" alt="Icon Ulasan">
+                            <div class="tulisul">Tulis Ulasan</div>
+                        </div></a>
+                    </div>
+                </div>
+        </div>  
+</section>
+<footer class="foot">
+    <div class="flexcol">
+        <img src="asset/logo.png" alt="">
+        <img src="asset/wonderfull-indonesia-footer.png" alt="">
+    </div>
+
+    <div class="linkfooter">
+        <div class="linkfoot">Blog</div>
+        <div class="linkfoot">Travity</div>
+        <div class="linkfoot">Kemitraan</div>
+        <div class="linkfoot">Kontak Kami</div>
+        <div class="linkfoot">Terms, Privacy policy & Copyright</div>
+    </div>
+
+</footer>
+<script>
+        
+var btn_aktifitas1 = document.getElementById("btn_aktifitas1");
+var btn_aktifitas2 = document.getElementById("btn_aktifitas2");
+var btn_aktifitas3 = document.getElementById("btn_aktifitas3");
+var btn_aktifitas4 = document.getElementById("btn_aktifitas4");
+var btn_aktifitas5 = document.getElementById("btn_aktifitas5");
+var konten_1 = document.getElementById("konten-1");
+var konten_2 = document.getElementById("konten-2");
+var konten_3 = document.getElementById("konten-3");
+var konten_4 = document.getElementById("konten-4");
+var konten_5 = document.getElementById("konten-5");
+
+function myFunction(){
+    if(konten_1.style.display=="none"){
+        konten_1.style.display="block";
+    }
+    else{
+        konten_1.style.display="none";
+    }
+}
+function myFunction2(){
+    if(konten_2.style.display=="none"){
+        konten_2.style.display="block";
+    }
+    else{
+        konten_2.style.display="none";
+    }
+}
+function myFunction3(){
+    if(konten_3.style.display=="none"){
+        konten_3.style.display="block";
+    }
+    else{
+        konten_3.style.display="none";
+    }
+}
+function myFunction4(){
+    if(konten_4.style.display=="none"){
+        konten_4.style.display="block";
+    }
+    else{
+        konten_4.style.display="none";
+    }
+}
+function myFunction5(){
+    if(konten_5.style.display=="none"){
+        konten_5.style.display="block";
+    }
+    else{
+        konten_5.style.display="none";
+    }
+}
+function myFunction6(){
+    if(konten_6.style.display=="none"){
+        konten_6.style.display="block";
+    }
+    else{
+        konten_6.style.display="none";
+    }
+}
+
+var saringmenu_1 = document.querySelector("#saringmenu_1");
+var saringmenu_2 = document.getElementById("saringmenu_2");
+
+const filterOn = [];
+const filterOff = [];
+
+function saringMenu(paramSaringMenu){
+    var test = document.getElementById(paramSaringMenu);
+    console.log(test.style);
+    
+    var dateSpan = document.createElement('span')
+    dateSpan.innerHTML = "Bawahnya contoh 1";
+    console.log(dateSpan);
+    saringmenu_1.parentNode.appendChild(dateSpan);
+}
+
+
+
+
+// tugu jogja weeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+function onShow(a) {
+  var element = a;
+  if (element.style.display === "none") {
+    element.style.display = "block";
+  } else {
+    element.style.display = "none";
+  }
+}
+
+
+
+
+var btn_simpandaftar1 = document.getElementById("btn_simpandaftar1");
+var kosong_1 = document.getElementById("kosong_1");
+function pindahsimpandaftar1() {
+    var simpan_1 = document.getElementById("simpan_1");
+    var kosong_1 = document.getElementById("kosong_1");
+    if(simpan_1.style.display=="none"){
+        simpan_1.style.display="block";
+        kosong_1.style.display="none";
+    }
+    else{
+        simpan_1.style.display="none";
+        kosong_1.style.display="block";
+
+    }
+}
+function pindahsimpandaftar2() {
+    var simpan_2 = document.getElementById("simpan_2");
+    if(simpan_2.style.display=="none"){
+        simpan_2.style.display="block";
+    }
+    else{
+        simpan_2.style.display="none";
+
+    }
+}
+function pindahsimpandaftar3() {
+    var simpan_3 = document.getElementById("simpan_3");
+    if(simpan_3.style.display=="none"){
+        simpan_3.style.display="block";
+    }
+    else{
+        simpan_3.style.display="none";
+        kosong_1.style.display="block";
+
+    }
+}
+</script>
+
+</body>
+</html>

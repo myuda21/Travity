@@ -1,0 +1,508 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+  }
+
+  body {
+	width: 100%;
+	height: 100%;
+	font-family: "Segoe UI", Arial, sans-serif;
+	
+	position: relative;
+}.nav37{
+    align-items: center;
+    align-self: stretch;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 5%;
+    position: sticky;
+	top: 0;
+	font-weight: bold;
+	z-index: 100;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.logo-nav{
+    align-items: flex-start;
+    display: flex;
+    gap: 20px;
+    height: 43.36px;
+    position: relative;
+    width: fit-content;
+    margin-bottom: 20px;
+}
+
+.nav-mid{
+    margin-left: 120px;
+}
+
+.nav-mid .imp-links{
+	display: flex;
+	flex-direction: row;
+	justify-content: left;
+	align-items: center;
+}
+
+.imp-links a{
+	text-decoration: none;
+}
+
+.table-daftar {
+	
+    margin-left: 10px;
+    margin-right: 10px;
+	display: flex;
+	flex-direction: row;
+	justify-content: left;
+	align-items: center;
+	width: 170px;
+	height: 50px;
+	color: #93C7FF;	
+	background: white;
+	border-radius: 8px;
+	flex: none;
+	order: 0;
+	align-self: stretch;
+	flex-grow: 0;
+  	transition: 0.3s;
+	position: relative;
+	-webkit-transition: opacity 1s ease-in-out;
+	-o-transition: opacity 1s ease-in-out;
+	-moz-transition: opacity 1s ease-in-out;
+	-ms-transition: opacity 1s ease-in-out;
+}
+
+.table-daftar img{
+	position: absolute;
+
+}
+
+.table-daftar .icon-beranda:hover{
+	opacity: 0;		
+}
+
+.table-daftar:hover{
+	background: #DBEAFE;
+	color: #007AFF;
+}
+
+
+
+.nav-right .search-box{
+	background: #F5FAFF;
+	width: 250px;
+	display: flex;
+	align-items: center;
+	/* padding: 0 15px; */
+	border-radius: 20px;
+}
+
+.search-box input{
+	width: 100%;
+	background: transparent;
+	padding: 10px;
+	outline: none;
+	border: 0;
+}
+
+header{
+	margin: 20px;
+}
+
+.banner-section{
+	position: relative;
+	width: 97%;
+	height: 100%;
+	margin: auto;
+	
+	box-shadow: 0px 1px 2px -1px rgba(0, 0, 0, 0.1);
+	filter: drop-shadow(0px 1px 3px rgba(0, 0, 0, 0.1));
+	
+}
+
+.banner-section img{
+    width: 99%;
+	height: 95%;
+	object-fit: cover;
+	cursor: pointer;
+	border-radius: 15px;
+}
+
+.profile-section{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	margin: auto;
+	
+}
+
+.profile-section .profile-site{
+    height: 60px;
+}
+
+
+.profile-section img{
+    margin-left: 34px;
+	transform: translateY(-110px);
+	object-fit: cover;
+	cursor: pointer;
+	border-radius: 15px;
+}
+
+.profile-section .profile-name-info h1 {
+	width: 50%;
+    margin-top: 20px;
+	margin-left: 45px;
+	font-size: 30px;
+	color: #29384E;
+}
+
+.header {
+	position: sticky;
+	padding: 0px 50px;
+	display: flex;
+	flex-direction: row;
+	top: 0;
+	justify-content: space-between;
+	align-items: center;
+	z-index: 1;
+	padding: 0 30px;
+  font-size: 15px;
+  text-decoration: none;
+  }
+  .navbar-menu {
+	display: flex;
+	flex-direction: row;
+	justify-content: right;
+	align-items: center;
+	margin-right: 20px;
+
+  }
+  .border-country {
+	border-radius: 8px;
+  }
+h4{
+	font-size: 16px;
+	color: #29384E;
+}
+
+  
+  a:link {
+	text-decoration: none;
+	color: #000000;
+  }
+  
+  .menu:hover {
+	color: #000000;
+  }
+  
+  .menu1 {
+	font-family: serif;
+  }
+  
+  .daftar {
+	background-color: #005cf0;
+	/* Green */
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	border-radius: 8px;
+  }
+.Daerah-Istimewa-Yogyakarta {
+	font-size: 30px;
+  	margin-top: 20px;
+	margin-left: 65px;
+}
+.menu:hover {
+	color: #000000;
+}
+.DIY {
+flex-direction: row;
+align-items: center;
+padding: 0px 24px;
+margin-left: 75px;
+margin-top: 20px;
+width: 390px;
+height: 50px;
+left: 48px;
+top: 647px;
+}
+.container {
+    display: flex;
+	flex-wrap: wrap;
+	padding-bottom: 60px;
+	margin-left: 50px;
+	margin-top: -30px;
+    
+}
+
+.card {
+    width: 296px;
+	height: 491px;
+	margin-left: 40px;
+	margin-top: 30px;
+	height: auto;
+    border-radius: 8px;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+	justify-content: space-evenly;
+}
+
+.card-image {
+    height: 168px;
+	width: 296px;
+	
+    background-size: cover;
+    border-radius: 8px 8px 0 0;
+}
+
+.car1 {
+    background-image: url(/asset/tugu-jogja.png);
+	width: 100%;
+
+}
+
+.car2 {
+    background-image: url(/asset/malioboro.png);
+	width: 100%;
+}
+
+.car3 {
+    background-image: url(/asset/tamanreptil.png);
+	width: 100%;
+}
+
+.car4 {
+	background-image: url(/asset/kampung-wisata-ts.png);
+	width: 100%;
+}
+
+.car5 {
+	background-image: url(/asset/alun\ kidul.png);
+	width: 100%;
+}
+.car6 {
+	background-image: url(/asset/keraton.png);
+	width: 100%;
+}
+.daftar-simpan {
+    display: flex;
+    justify-content: right;
+    transform: scale(1);
+    transition: 0.3s ease-in-out;
+}
+.daftar-disimpan {
+    left: 30px;
+	position: relative;
+}
+.table1 {
+	border: black;
+    width: 360px;
+	height: auto;
+    margin-left: 25px;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+	padding: 10px;
+    border-radius: 15px 15px 15px 15px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	
+}
+.kosong {
+width: 302px;
+margin: 5px;
+height: auto;
+display: flex;
+align-items: center;
+color: #D1D5DB;
+}
+.font-design1 {
+width: 302px;
+margin: 5px;
+height: 19px;
+display: flex;
+align-items: center;
+color: black;
+}
+.table2 {
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    width: 360px;
+    height: auto;
+    margin-top: 30px;
+	font-weight: 600;	
+	font-size: 15px;
+	font-family: 'Quicksand', sans-serif;
+	margin-left: 25px;
+    border-radius: 15px 15px 15px 15px;
+	padding: 10px;
+}
+#check {
+	display: inline-flex;
+	width: 15px;
+	height: 15px;
+}
+.table-daftar-simpan {
+	display: flex;
+	flex-direction: row;
+	justify-content: left;
+	align-items: center;
+	font-weight: bold;
+	width: 360px;
+	height: 40px;
+/* Biru Penekanan Muda */
+background: #DBEAFE;
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+.isi-saring-menu {
+	margin-left: 15px;
+	
+}
+.isi-saring-menu button {
+		float: right;
+		padding-top: 6px;
+
+		background: white;
+		font-size: 20px;
+		border: none;
+		cursor: pointer;
+		border-radius: 0px 8px 8px 0px;
+}
+.plus {
+	color: #D1D5DB;
+	padding-top: 10px;
+}
+.rating {
+    float: left;
+    height: 46px;
+	margin-left: 7px;
+	margin-top: 10px;
+    padding: 0 10px;
+}
+.rating:not(:checked) > input {
+    display: none;
+}
+.rating:not(:checked) > label {
+    float:right;
+    width:1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:30px;
+    color:#ccc;
+}
+.rating:not(:checked) > label:before {
+    content: '★ ';
+}
+.rating > input:checked ~ label {
+    color: #ffc700;    
+}
+.rating:not(:checked) > label:hover,
+.rating:not(:checked) > label:hover ~ label {
+    color: #deb217;  
+}
+.rating > input:checked + label:hover,
+.rating > input:checked + label:hover ~ label,
+.rating > input:checked ~ label:hover,
+.rating > input:checked ~ label:hover ~ label,
+.rating > label:hover ~ input:checked ~ label {
+    color: #c59b08;
+}
+.border-aktifitas{
+
+    width: auto;
+    padding: 10px;
+	margin: 15px;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+}
+.custom-select {
+	display: flex;
+	flex-direction: row;
+	justify-content: left;
+	align-items: center;
+	position: auto;
+	width: 248px;
+	height: 30px;
+	
+/* Biru Penekanan Muda */
+background: #DBEAFE;
+border-radius: 3px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+.simpan-daftar {
+	background-color: #005cf0;
+	align-items: center;
+	width: 280px;
+	height: 34px;
+	text-align: center;
+	border-radius: 8px;
+	margin: 8px;
+	color: white;
+	border: white;
+	font-size: 16px;
+	border-radius: 8px;
+}
+
+.lokasi-ticket {
+	width: 302px;
+	margin-left: 17px;
+	margin-top: 10px;
+	height: 19px;
+	display: flex;
+	align-items: center;
+}
+
+.harga-ticket {
+	width: 302px;
+	margin-left: 17px;
+	margin-top: 10px;
+	height: 19px;
+	display: flex;
+	align-items: center;
+}
+
+.saringMenuItem span{
+	padding: 10px;
+	color: #7a7a7a;
+}
+
+.arrow-right {
+
+	border-top: 25px solid transparent;
+	border-left: 23px solid #1E40AF;
+	border-bottom: 25px solid transparent;
+	position: relative;
+  }
+
+
+  .arrow-right:before {
+	content: "";
+	width: 0;
+	height: 0;
+	
+	position: absolute;
+	border-top: 25px solid transparent;
+	border-left: 23px solid white;
+	border-bottom: 25px solid transparent;
+	top: -25px;
+	left: -25px;
+  }
+
+  

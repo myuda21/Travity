@@ -1,0 +1,136 @@
+.panel-tdl {
+	display: block;
+  margin: 0 12px;
+  align-items: center;
+	overflow: hidden;
+	padding-left: 20px;
+}
+
+.abu-muda{
+  background-color: #FAFAFA;
+}
+
+.panel{
+  display: block;
+}
+
+.perjalanan .panel-tdl .contents {
+    position: relative;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    width: auto;
+    height: auto;
+    background: #f5faff;
+    border: #29384E;
+    border-radius: 15px 15px 15px 15px;
+    justify-content: space-evenly;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.kotak-act .top img{
+  height: 48px;
+  width: auto;
+  object-fit: cover;
+}
+
+.tdl-btn1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  font-weight: 800;
+  font-size: 18px;
+  color: #29384E;
+  width: 200px;
+  height: 50px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+/* Style untuk sortable list */
+
+.tdl-mid {
+  width: 80%;
+  margin-top: 12px;
+  margin-left: 24px;
+}
+
+
+.sortable2 {
+  padding: 0 24px;
+  cursor: pointer;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+}
+
+.tdl-note{
+  padding: 0 24px;
+  cursor: pointer;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+}
+
+.tdl-note img {
+  width: 24px;
+  height: auto;
+  object-fit: cover;
+  margin-left: 0 !important;
+}
+
+.tdl-note button {
+  font-weight: 600;
+  font-size: 16px;
+  font-family: 'Quicksand', sans-serif;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+
+.tdl-note button img {
+  height: 24px;
+  width: auto;
+  object-fit: cover;
+}
+
+.s2 {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+  margin: 0;
+  height: 56px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.tdl-details {
+  display:flex;
+  padding-top: 12px;
+  font-size: 18px;
+}
+
+.tdl-details i {
+  padding-top: 6px;
+  margin-right: 16px;
+}
+
+.tdl-details p {
+  font-weight: 600;
+  font-size: 16px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.tdl-details p.red{
+  color: red;
+}
+
+.tdl-details img {
+  margin-left: 24px;
+}
+
+
+.end-pic img{
+    width: 240px;
+    height: 138px;
+    object-fit: cover;
+}

@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do-List</title>
+    <link href="style_acctodo.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="style-to-do-list.css".css>
+    <link rel="stylesheet" href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css>
+</head>
+<body style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px;">
+    <nav class="nav37" style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px;">
+        <div class="logo-nav" >
+            <img src="asset/logo.png" alt=""  style="margin: 0px;">
+        </div>
+        <div class="nav-mid" style="margin-top: 0px; margin-bottom: 0px; margin-left: 115px; margin-right: 0px;">
+            <div class="imp-links" style="margin: 0px;">
+                <a href="index_homepage-new.html"><div class="table-daftar">&emsp;
+                    <img src="asset/beranda.png" class="icon-beranda-burem" style="margin: 0px;"/>&emsp;&emsp;&emsp;Beranda
+                    <img src="asset/beranda_opp.png" class="icon-beranda" style="margin: 0px;"> 
+                </div></a>
+                <a href="index-akun-active.html"><div class="table-daftar"  >&emsp;
+                    <img src="asset/accun.png" class="icon-beranda-burem" style="margin: 0px;"/>&emsp;&emsp;&emsp;Akun
+                    <img src="asset/accun_opp.png" class="icon-beranda" style="margin: 0px;">
+                </div></a>
+                <a href="index-setting.html"><div class="table-daftar" >&emsp;
+                    <img src="asset/pengaturan.png" class="icon-beranda-burem" style="margin: 0px;"/>&emsp;&emsp;Pengaturan
+                    <img src="asset/pengaturan_opp.png" class="icon-beranda" style="margin: 0px;">
+                </div></a>
+            </div>
+        </div>
+        <div class="nav-right">
+            <div class="search-box">
+                <input type="text" placeholder="Cari tempat favoritmu . . .">
+                <img src="asset/Icon Penelusuran.png">
+            </div>
+        </div>
+    </nav>
+
+    <section class="container">
+        
+        <div class="perjalanan panel-tdl abu-muda">
+            <h1>Hari 1</h1>
+                    <div class="contents sortable1" style="margin-top: 20px;">
+                        
+                        <!-- Start Lokasi 1 -->
+                        <div class="location-con s1">
+                            
+                            <div class="kotak-act">
+                                <button class="accordion1">
+                                    <div class="top">
+                                        <div class="tdl-btn1" style="width: auto; padding-left: 8px;"><img src="asset/IconLoc.png"/>Tugu Jogja - Daerah Istimewa Yogyakarta</div>
+                                        <img src="asset/up.png" alt="">
+                                    </div>
+                                </button>
+
+                                <div class="panel" style="margin-top: 12px;">
+                                    <div style="display: flex; justify-content: center;">
+
+                                        <div>
+                                            <i class='fa-solid fa-grip-vertical fa-2x' style='color:lightgray'></i>
+                                        </div>
+                                        <!-- Beginning sortable list -->
+                                        <div class="tdl-mid">
+                                            <div class="sortable2">
+                                                <div class="s2" id="el1">
+                                                    <div class="tdl-details">
+                                                      <i class='fa-solid fa-grip-vertical fa-lg' style='color:lightgray'></i>
+                                                      <p>Sewa Sepeda berkeliling Tugu Jogja</p>
+                                                    </div>
+                                                    <div class="tdl-details" >
+                                                      <p class="red">Rp.120.000</p>
+                                                      <img src="asset/bin.svg"  onclick="remove(el1)">
+                                                    </div>
+                                                  </div>
+      
+                                                  <div class="s2" id="el2">
+                                                      <div class="tdl-details">
+                                                        <i class='fa-solid fa-grip-vertical fa-lg' style='color:lightgray'></i>
+                                                        <p>Sewa Delman berkeliling jalan utama Jogja</p>
+                                                      </div>
+                                                      <div class="tdl-details">
+                                                          <p class="red">Rp.100.000</p>
+                                                          <img src="asset/bin.svg"  onclick="remove(el2)">
+                                                      </div>
+                                                  </div>
+      
+                                                  <div class="s2" id="el3">
+                                                      <div class="tdl-details">
+                                                        <i class='fa-solid fa-grip-vertical fa-lg' style='color:lightgray'></i>
+                                                        <p>Nonton pertunjukan jalanan di Jalan Tugu Jogja</p>
+                                                      </div>
+                                                      <div class="tdl-details">
+                                                          <img src="asset/bin.svg" onclick="remove(el3)">
+                                                      </div>
+                                                  </div>
+                                            </div>
+        
+                                            <br>
+                                            <div class="tdl-note">
+                                                <div class="s2" id="n1">
+                                                    <div class="tdl-details">
+                                                      <img src="asset/Icon Ulasan.svg">
+                                                      <p>Jangan Lupa oleh-oleh Bu RT</p>
+                                                    </div>
+                                                    <div class="tdl-details">
+                                                        <img src="asset/bin.svg" onclick="remove(n1)">
+                                                    </div>
+                                                </div>
+    
+                                                <div class="s2" id="n2">
+                                                    <div class="tdl-details">
+                                                    <img src="asset/Icon Ulasan.svg">
+                                                      <p>Backup foto tiket pesawat kalau hilang</p>
+                                                    </div>
+                                                    <div class="tdl-details">
+                                                        <img src="asset/bin.svg" onclick="remove(n2)">
+                                                    </div>
+                                                </div>
+
+                                                <div class="s2" >
+                                                    <button>
+                                                        <div style="display: flex; justify-content: center;">
+                                                            <img src="asset/Icon Tambah.svg">
+                                                            <p>Tambah Pengingat</p>
+                                                        </div>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                          <!-- Ending Sortable List -->
+                                        <div class="end-pic">
+                                            <img style="border-radius: 8px;" src="asset/tugu-jogja.png">
+                                        </div>
+
+                                    
+
+                                    </div>
+
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Lokasi 1 -->
+
+                        <!-- Start Lokasi 2 -->
+                        <div class="location-con s1">
+                            
+                            <div class="kotak-act">
+                                <button class="accordion1">
+                                    <div class="top">
+                                        <div class="tdl-btn1" style="width: auto; padding-left: 8px;"><img src="asset/IconLoc.png"/>Candi Borobudur- Daerah Istimewa Yogyakarta</div>
+                                        <img src="asset/up.png" alt="">
+                                    </div>
+                                </button>
+
+                                <div class="panel" style="margin-top: 12px;">
+                                    <div style="display: flex; justify-content: center;">
+
+                                        <div>
+                                            <i class='fa-solid fa-grip-vertical fa-2x' style='color:lightgray'></i>
+                                        </div>
+                                        <!-- Beginning sortable list -->
+                                        <div class="tdl-mid">
+                                            <div class="sortable2">
+                                                <div class="s2" id="el4">
+                                                    <div class="tdl-details">
+                                                      <i class='fa-solid fa-grip-vertical fa-lg' style='color:lightgray'></i>
+                                                      <p>Sewa pemandu wisata</p>
+                                                    </div>
+                                                    <div class="tdl-details" >
+                                                      <p class="red">Rp.120.000</p>
+                                                      <img src="asset/bin.svg"  onclick="remove(el4)">
+                                                    </div>
+                                                </div>
+      
+                                                <div class="s2" id="el5">
+                                                      <div class="tdl-details">
+                                                        <i class='fa-solid fa-grip-vertical fa-lg' style='color:lightgray'></i>
+                                                        <p>Berkunjung ke kebun binatang borobudur</p>
+                                                      </div>
+                                                      <div class="tdl-details">
+                                                          <img src="asset/bin.svg"  onclick="remove(el5)">
+                                                      </div>
+                                                </div>
+    
+                                            </div>
+        
+                                            <br>
+                                            <div class="tdl-note">
+                                                <div class="s2" >
+                                                    <button>
+                                                        <div style="display: flex; justify-content: center;">
+                                                            <img src="asset/Icon Tambah.svg">
+                                                            <p>Tambah Pengingat</p>
+                                                        </div>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                          <!-- Ending Sortable List -->
+                                        <div class="end-pic">
+                                            <img style="height: auto; border-radius: 8px;" src="asset/borobudur.jpg">
+                                        </div>
+
+
+
+                                    </div>
+
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Lokasi 2 -->
+
+                        <!-- Start Lokasi 3 -->
+                        <div class="location-con s1">
+                            
+                            <div class="kotak-act">
+                                <button class="accordion1">
+                                    <div class="top">
+                                        <div class="tdl-btn1" style="width: auto; padding-left: 8px;"><img src="asset/IconLoc.png"/>Monumen Nasional - Daerah Istimewa Yogyakarta</div>
+                                        <img src="asset/up.png" alt="">
+                                    </div>
+                                </button>
+
+                                <div class="panel" style="margin-top: 12px;">
+                                    <div style="display: flex; justify-content: center;">
+
+                                        <div>
+                                            <i class='fa-solid fa-grip-vertical fa-2x' style='color:lightgray'></i>
+                                        </div>
+                                        <!-- Beginning sortable list -->
+                                        <div class="tdl-mid">
+                                            <div class="sortable2">
+                                                <div class="s2" id="el6">
+                                                    <div class="tdl-details">
+                                                      <i class='fa-solid fa-grip-vertical fa-lg' style='color:lightgray'></i>
+                                                      <p>Masuk Monas</p>
+                                                    </div>
+                                                    <div class="tdl-details" >
+                                                      <p class="red">Rp.120.000</p>
+                                                      <img src="asset/bin.svg"  onclick="remove(el6)">
+                                                    </div>
+                                                </div>
+      
+                                                <div class="s2" id="el7">
+                                                      <div class="tdl-details">
+                                                        <i class='fa-solid fa-grip-vertical fa-lg' style='color:lightgray'></i>
+                                                        <p>Foto di depan Monas</p>
+                                                      </div>
+                                                      <div class="tdl-details">
+                                                          <img src="asset/bin.svg"  onclick="remove(el7)">
+                                                      </div>
+                                                </div>
+
+                                                <div class="s2" id="el8">
+                                                    <div class="tdl-details">
+                                                      <i class='fa-solid fa-grip-vertical fa-lg' style='color:lightgray'></i>
+                                                      <p>Nyobain tropong di puncak Monas</p>
+                                                    </div>
+                                                    <div class="tdl-details">
+                                                        <img src="asset/bin.svg"  onclick="remove(el8)">
+                                                    </div>
+                                              </div>
+
+                                              <div class="s2" id="el9">
+                                                <div class="tdl-details">
+                                                  <i class='fa-solid fa-grip-vertical fa-lg' style='color:lightgray'></i>
+                                                  <p>Keliling Monas naik sepeda</p>
+                                                </div>
+                                                <div class="tdl-details">
+                                                    <img src="asset/bin.svg"  onclick="remove(el9)">
+                                                </div>
+                                          </div>
+    
+                                            </div>
+        
+                                            <br>
+                                            <div class="tdl-note">
+                                                <div class="s2" id="n3">
+                                                    <div class="tdl-details">
+                                                    <img src="asset/Icon Ulasan.svg">
+                                                      <p>Backup foto paspor kalau hilang</p>
+                                                    </div>
+                                                    <div class="tdl-details">
+                                                        <img src="asset/bin.svg" onclick="remove(n3)">
+                                                    </div>
+                                                </div>
+
+                                                <div class="s2" >
+                                                    <button>
+                                                        <div style="display: flex; justify-content: center;">
+                                                            <img src="asset/Icon Tambah.svg">
+                                                            <p>Tambah Pengingat</p>
+                                                        </div>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                          <!-- Ending Sortable List -->
+                                        <div class="end-pic">
+                                            <img style="height: auto; border-radius: 8px;" src="asset/Monas.jpg">
+                                        </div>
+
+                                    </div>
+
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Lokasi 3 -->
+
+                        <!-- Start Note General -->
+                        <div class="location-con s1">
+                            
+                            <div class="kotak-act">
+                                <button class="accordion1">
+                                    <!-- <div class="top">
+                                        <div class="tdl-btn1" style="width: auto; padding-left: 8px;"><img src="asset/IconLoc.png"/>Monumen Nasional - Daerah Istimewa Yogyakarta</div>
+                                        <img src="asset/up.png" alt="">
+                                    </div> -->
+                                </button>
+
+                                <div class="panel" style="margin-top: 12px;">
+                                    <div style="display: flex; justify-content: center;">
+
+                                        <div>
+                                            <i class='fa-solid fa-grip-vertical fa-2x' style='color:lightgray'></i>
+                                        </div>
+                                        <!-- Beginning sortable list -->
+                                        <div class="tdl-mid">
+                                            
+                                            <div class="tdl-note">
+                                                <div class="s2" id="n5">
+                                                    <div class="tdl-details">
+                                                    <img src="asset/Icon Ulasan.svg">
+                                                      <p>Kunci Kamar</p>
+                                                    </div>
+                                                    <div class="tdl-details">
+                                                        <img src="asset/bin.svg" onclick="remove(n5)">
+                                                    </div>
+                                                </div>
+                                            
+                                                <div class="s2" id="n6">
+                                                    <div class="tdl-details">
+                                                    <img src="asset/Icon Ulasan.svg">
+                                                      <p>Bawa surat-surat motor</p>
+                                                    </div>
+                                                    <div class="tdl-details">
+                                                        <img src="asset/bin.svg" onclick="remove(n6)">
+                                                    </div>
+                                                </div>
+                                            
+                                                <div class="s2" id="n7">
+                                                    <div class="tdl-details">
+                                                    <img src="asset/Icon Ulasan.svg">
+                                                      <p>Kuitansi belanja tadi pagi buat laporan</p>
+                                                    </div>
+                                                    <div class="tdl-details">
+                                                        <img src="asset/bin.svg" onclick="remove(n7)">
+                                                    </div>
+                                                </div>
+
+                                                <div class="s2" >
+                                                    <button>
+                                                        <div style="display: flex; justify-content: center;">
+                                                            <img src="asset/Icon Tambah.svg">
+                                                            <p>Tambah Pengingat</p>
+                                                        </div>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                          <!-- Ending Sortable List -->
+                                        <div class="end-pic">
+                                            <img src="asset/note-general.jpg">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Note General -->
+                    </div>
+
+
+
+                    <!-- Tambah Acara -->
+                    <div class="contents sortable1" style="margin-top: 20px;">
+                        <div class="location-con" style=" padding: 4px;">
+                            <div class="kotak-act tdl-note" style="width: inherit; height: 56px;">
+                                <button>
+                                    <div style="display: flex; justify-content: center;">
+                                        <img src="asset/Icon Tambah.svg" alt="">
+                                        <p>Tambah Acara</p>
+                                    </div>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Tambah Acara -->
+
+        </div>
+    </section>
+
+    <section class="container abu-muda" style="margin-top: -28px;">
+        <div class="perjalanan tdl-note panel-tdl" style="padding: 4px 32px;">
+                <button style="background-color: white; width: 100%;; height: 56px;">
+                    <div style="display: flex; justify-content: center;" >
+                        <img src="asset/Icon Tambah.svg" alt="">
+                        <p>Tambah Hari</p>
+                    </div>
+                </button>
+        </div>
+
+    </section>
+
+    <footer class="foot" style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px;">
+        <div class="flexcol">
+            <img src="asset/logo.png" alt="">
+            <img src="asset/wonderfull-indonesia-footer.png" alt="">
+        </div>
+    
+        <div class="linkfooter">
+            <div class="linkfoot">Blog</div>
+            <div class="linkfoot">Travity</div>
+            <div class="linkfoot">Kemitraan</div>
+            <div class="linkfoot">Kontak Kami</div>
+            <div class="linkfoot">Terms, Privacy policy & Copyright</div>
+        </div>
+    
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <script>
+         var acc = document.getElementsByClassName("accordion");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.display === "block") {
+            panel.style.display = "none";
+            } else {
+            panel.style.display = "block";
+            }
+        });
+        }
+
+        var acc = document.getElementsByClassName("accordion1");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.display === "block") {
+            panel.style.display = "none";
+            } else {
+            panel.style.display = "block";
+            }
+        });
+        }
+
+        var acc = document.getElementsByClassName("accordion0");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.display === "block") {
+            panel.style.display = "none";
+            } else {
+            panel.style.display = "block";
+            }
+        });
+        }
+
+        // Sotable list
+        $(".sortable1").sortable({
+            items: ".s1"
+        });
+
+        $(".sortable1").disableSelection();
+
+        //children
+        $(".sortable2").sortable({
+            items: ".s2"
+        });
+        $(".sortable2").disableSelection();
+        $(".sortable2").on("sortstop", function(event, ui) {
+        //do sort of childrens
+        });
+
+        //hapus
+        function remove(el) {
+        var element = el;
+            element.remove();
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,589 @@
+ @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	width: 100%;
+	height: 100%;
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-weight: bold;
+	position: relative;
+	
+}
+.nav37{
+    align-items: center;
+    align-self: stretch;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 5%;
+    position: sticky;
+	top: 0;
+	z-index: 100;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.logo-nav{
+    align-items: flex-start;
+    display: flex;
+    gap: 20px;
+    height: 43.36px;
+    position: relative;
+    width: fit-content;
+    margin-bottom: 20px;
+}
+
+.nav-mid{
+    margin-left: 120px;
+}
+
+.nav-mid .imp-links{
+	display: flex;
+	flex-direction: row;
+	justify-content: left;
+	align-items: center;
+}
+
+.imp-links a{
+	text-decoration: none;
+}
+
+.table-daftar {
+    margin-left: 10px;
+    margin-right: 10px;
+	display: flex;
+	flex-direction: row;
+	justify-content: left;
+	align-items: center;
+	width: 170px;
+	height: 50px;
+	color: #93C7FF;	
+	background: white;
+	border-radius: 8px;
+	flex: none;
+	order: 0;
+	align-self: stretch;
+	flex-grow: 0;
+  	transition: 0.3s;
+	position: relative;
+	-webkit-transition: opacity 1s ease-in-out;
+	-o-transition: opacity 1s ease-in-out;
+	-moz-transition: opacity 1s ease-in-out;
+	-ms-transition: opacity 1s ease-in-out;
+}
+
+.table-daftar img{
+	position: absolute;
+
+}
+
+.table-daftar .icon-beranda:hover{
+	opacity: 0;		
+}
+
+.table-daftar:hover{
+	background: #DBEAFE;
+	color: #007AFF;
+}
+
+
+
+.nav-right .search-box{
+	background: #F5FAFF;
+	width: 250px;
+	display: flex;
+	align-items: center;
+	/* padding: 0 15px; */
+	border-radius: 20px;
+}
+
+.search-box input{
+	width: 100%;
+	background: transparent;
+	padding: 10px;
+	outline: none;
+	border: 0;
+}
+
+.kosong{
+	
+	font-weight: 400;
+	display: flex;
+	flex-direction: row;
+	justify-content: left;
+	align-items: center;
+	font-size: 15px;
+	width: 360px;
+	height: 50px;
+	font-weight: 600;	
+	font-family: 'Quicksand', sans-serif;
+	margin-left: 15px;
+	flex: none;
+	order: 0;
+	align-self: stretch;
+	flex-grow: 0;
+}
+
+.isi-ulasan{
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: none;
+	height: 180px;
+	overflow: hidden;
+	color: #29384E;
+	border-radius: 15px;
+} 
+
+
+.active, .top:hover {
+	background-color: none; 
+}
+  
+.panel {
+	display: none;
+	background-color: white;
+	overflow: hidden;
+	transform: translateY(-30px);	
+}
+
+
+h5{
+	margin: 15px;
+	font-size: 13px;
+	font-weight: 600;	
+	font-family: 'Quicksand', sans-serif;
+	color: #6C757D;
+	text-align: left;
+}
+
+
+
+.banner-section{
+	position: relative;
+	width: 1440px;
+	height: 100%;
+	
+	box-shadow: 0px 1px 2px -1px rgba(0, 0, 0, 0.1);
+	filter: drop-shadow(0px 1px 3px rgba(0, 0, 0, 0.1));
+	
+}
+
+.banner-section img{
+    width: 1515px;
+	height: 100%;
+	object-fit: fill;
+	cursor: pointer;
+}
+
+.Pencarian{
+	position: relative;
+	width: 100%;
+    height: auto;
+	margin: auto;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.Pencarian .Pencarian-info h1 {
+	font-size: 30px;
+	color: #007AFF;
+}
+
+
+.Pencarian .search-box{
+	background: #F5FAFF;
+    display: flex;
+	position: relative;
+    margin: auto;
+	width: 75%;
+	align-items: center;
+    text-align: center;
+    justify-content: center;
+	padding: 0 15px;
+	border-radius: 20px;
+}
+
+.Pencarian  .search-box input{
+	width: 100%;
+	background: transparent;
+	padding: 10px;
+    text-align: left;
+    justify-content: center;
+	outline: none;
+	border: 0;
+    color: #93C7FF;
+    margin: 10px;
+}
+
+.text{
+    padding-left: 55px;
+    margin-top: 120px;
+}
+
+.text h1{
+    color: black;
+    font-size: 30px;
+}
+
+.text h4{
+    color: black;
+    font-size: 16px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.text1{
+    padding-left: 55px;
+    margin-top: 40sebel0px;
+}
+
+.text1 h1{
+    color: black;
+    font-size: 30px;
+}
+
+.text1 h4{
+    color: black;
+    font-size: 16px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+.ulasan-lokasi{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 94%;
+    flex-wrap: wrap;
+	margin-left: 40px;
+	margin-bottom: 100px;
+}
+
+.ulasan-lokasi .kartu-ulasan{
+    position: 300px;
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+    background: white;
+    border-radius: 8px;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.ulasan-lokasi .kartu-ulasan .gambaraja{
+    transform: translateX(-10px);
+}
+
+.ulasan-lokasi .kartu-ulasan .gambaraja img{
+    width: 321px;
+    height: 169.81px;
+    border-radius: 8px 8px 0px 0px;
+    transform: translateY(-13px);
+}
+
+.ulasan-lokasi .kartu-ulasan .isian-ulasan{
+    position: relative;
+    height: 195px;
+    overflow: hidden;
+}
+
+.ulasan-lokasi .kartu-ulasan .isian-ulasan::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(transparent,white);
+}
+
+.ulasan-lokasi .kartu-ulasan.kartu-ulasan.active .isian-ulasan{
+    height: auto;
+}
+
+.ulasan-lokasi .kartu-ulasan.kartu-ulasan.active .isian-ulasan::before{
+    background: none;
+}
+
+.ulasan-lokasi .kartu-ulasan .isian-ulasan h3{
+    color: #29384E;
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.ulasan-lokasi .kartu-ulasan .isian-ulasan p{
+    font-weight: 500;
+    color: #ccc;
+    font-size: 13px;
+	font-weight: 600;	
+	font-family: 'Quicksand', sans-serif;
+     
+}
+.ulasan-lokasi .kartu-ulasan .more{
+    position: absolute;
+    padding: 40px 140px;
+    transform: translateY(-110px);
+    background: transparent;
+    margin-top: 15px;
+    display: inline-block;
+    cursor: pointer;
+    text-transform: uppercase;
+    color: #383838;
+    font-weight: 500;
+    letter-spacing: 2px;
+    font-size: 10px;
+}
+
+.ulasan-lokasi .kartu-ulasan.kartu-ulasan.active .more{
+    background: transparent;
+}
+
+.ulasan-lokasi .kartu-ulasan .more::before{
+    content: '';;
+}
+.ulasan-lokasi .kartu-ulasan.active .more::before{
+    content: '';
+}
+
+.minikon{
+	font-weight: 400;
+	display: flex;
+	flex-direction: row;
+	justify-content: left;
+	align-items: center;
+	font-size: 13px;
+	width: 360px;
+	height: 50px;
+	font-weight: 600;	
+	font-family: 'Quicksand', sans-serif;
+	flex: none;
+	order: 0;
+	align-self: stretch;
+	flex-grow: 0;
+    color: #29384E;
+}
+.lokasi .ikonminimini{
+    height: 19px;
+}
+
+.Utama-358{
+    align-items: flex-start;
+    background-color: white;
+    border: 1px solid #D1D5DB;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 16px 8px;
+    position: relative;
+    width: 91%;
+	margin-left: 55px;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+	margin-bottom: 100px;
+}
+
+.tmpt-isi-385{
+    align-items: center;
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    justify-content: center;
+    position: relative;
+}
+
+.tmpt-isi2-382{
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    gap: 16px;
+    padding: 0 8px;
+    position: relative;
+}
+
+.tmpt-isi3-397::-webkit-scrollbar{
+    display: flex;
+    width: 7px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); 
+  border-radius: 5px;
+  border-color: #D1D5DB;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #D1D5DB; 
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: gray; 
+}
+
+.tmpt-isi3-397{
+    border-radius: 8px;
+    height: 413px;
+    min-width: 91%;
+    overflow: hidden;
+    overflow-y: scroll;
+    position: relative;
+}
+
+.capsule{
+    align-items: flex-start;
+    display: flex;
+    height: 1536px;
+    min-width: 91%;
+}
+
+.tmpt-isi4-384{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    justify-content: center;
+    overflow-y: scroll;
+    position: relative;
+    width:1400px;
+}
+
+.frame3::-webkit-scrollbar{
+    display: none;
+    width: 8px;
+}
+
+.frame3{
+    align-items: center;
+    align-self: stretch;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    overflow-x: scroll;
+    position: relative;
+}
+
+.gbrlokasi{
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 369px;
+    width: 296px;
+    box-shadow: 0px 8px 20px #0057b23d;
+    position: relative;
+}
+
+.overlap-group{
+    align-items: flex-start;
+    background-position: 50% 50%;
+    background-size: cover;
+    display: flex;
+    height: 369px;
+    min-width: 296px;
+    /* padding: 23px 48px; */
+}
+
+.place2{
+    letter-spacing: 0;
+    line-height: normal;
+    min-height: 21px;
+    white-space: nowrap;
+	padding: 23px 48px;
+}
+
+.gayatulisan{
+    color: white;
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.container{
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	padding: 25px;
+}
+
+.sharing-menu {
+	
+	color: #93C7FF;
+	display: flex;
+	flex-direction: row;
+	justify-content: left;
+	align-items: center;
+
+	width: 360px;
+	height: 50px;
+	/* Biru Penekanan Muda */
+	background: white;
+	border-radius: 8px;
+
+	/* Inside auto layout */
+	flex: none;
+	order: 0;
+	align-self: stretch;
+	flex-grow: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+.foot{
+    align-items: flex-start;
+    background-color: #DBEAFE;
+    display: flex;
+    flex-direction: row;
+    flex-shrink: 1;
+    gap: 100px;
+    height: 400px;
+    justify-content: flex-start;
+    margin-top: 150px;
+    mix-blend-mode: normal;
+    padding: 24px 48px;
+    width: 1440px;
+}
+
+.flexcol{
+    margin-top: 40px;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 77px;
+    min-height: 219px;
+    width: 296px;
+}
+
+.linkfooter{
+    align-items: center;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+    margin-bottom: 0.95px;
+    position: relative;
+    width: 619px;
+}
+
+.linkfoot{
+    align-self: stretch;
+    color: #29384E;
+    font-weight: 700;
+    line-height: normal;
+    position: relative;
+    white-space: nowrap;
+    font-family: 'Quicksand', sans-serif;
+}
